@@ -1,0 +1,182 @@
+.container{
+  max-width: 960px;
+  margin: 0 auto;
+  padding:25px;
+}
+
+.main-image1{
+  background: url("https://cdn.glitch.com/4bac5938-cc7e-4496-80bf-fd3c963874e9%2FUntitled%20design%20(1).png?v=1604811716713") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height:500px;
+}
+.rs-image1{
+  background: url("https://cdn.glitch.com/a37153df-cfb4-4496-8a8c-c067562391e6%2Fdownload.jpg?v=1594406214044") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height:500px;
+}
+html{
+  background-color: #EAF7FD;
+}
+body{
+  margin:30px;
+  padding:2px;
+  text-align:center;
+  background:#EAF7FD;
+}
+.center
+{
+  position:absolute;
+  top:50%;
+  left: 50%;
+  margin-left:auto;
+  margin-right:auto;
+  /*margin-top: 100px;
+  padding:3000px;*/
+  
+  transform: translate(-50%,-50%);
+}
+.pulse{
+  width:450px;
+  height:450px;
+  position: relative;
+  background: #FFCFDA;
+  border-radius: 50%; 
+  color:black;
+  font-size:25px;
+  text-align:center;
+  line-height: 50px;
+  text-transform: uppercase;
+  animation:animate 3s linear infinite;
+  font-family: 'Mali', cursive;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding: 10px;
+  position: absolute;
+  
+}
+
+li.nav-item {
+  display: inline;        
+  float: center;           
+  padding: 20px;
+}
+#title1{
+  font-family: 'Mali',cursive;
+}
+h2{
+  font-size:77px;
+  text-align:center;
+  line-height: 80px;
+  font-family: 'Dosis', sans-serif;
+  position: relative;
+top: 130px;
+}
+h3{
+  font-size:30px;
+  text-align:center;
+  line-height: 10px;
+  font-family: 'Dosis', sans-serif;
+  position: relative;
+top: 90px;
+}
+@keyframes animate
+{
+  0%
+  {
+    box-shadow: 0 0 0 0 rgba(255,109,74,.7), 0 0 0 0 rgba(255,109,74,.7);
+  }
+  40%
+  {
+    box-shadow: 0 0 0 50px rgba(255,109,74,0), 0 0 0 0 rgba(255,109,74,.7);
+  }
+  80%
+  {
+    box-shadow: 0 0 0 50px rgba(255,109,74,0), 0 0 0 30px rgba(255,109,74,0);
+  }
+  100%
+  {
+    box-shadow: 0 0 0 0 rgba(255,109,74,0), 0 0 0 30px rgba(255,109,74,0);
+  }
+}
+
+#main-img {
+ 
+  }
+
+h1{
+  font-family: 'Mali', cursive;
+  background-color: #FEDCE4;
+}
+li{
+  display: inline;
+}
+li.nav-item a { 
+  padding:10px;  
+}
+a.button{
+display:inline-block;
+padding:0.5em 3em;
+border:0.16em solid #000000;
+margin:0 0 0 0;
+box-sizing: border-box;
+text-decoration:none;
+font-family:'Mali', cursive;
+font-weight:400;
+color:#000000;
+text-align:center;
+transition: all 0.15s;
+background-color: #F9E5EA;
+}
+a.button:hover{
+color:#BBBBBB;
+border-color:#BBBBBB;
+}
+a.button:active{
+color:#BBBBBB;
+border-color:#BBBBBB;
+}
+@media all and (max-width:30em){
+a.button{
+display:block;
+margin:0.4em auto;
+}
+}
+
+#navbar{
+  background-color: #E3F6DF;
+  margins: 0;
+  padding: 2px;
+}
+.carousel-container{
+  position: relative;
+  top: 75px;
+  width: 550px;
+  margin: auto;
+  overflow: hidden;
+  border: 5px solid black;
+}
+
+.carousel-slide{
+  display: flex;
+  width: 95%;
+  height: 100%;
+  margin: 5px;
+}
+
+#prevButton{
+  position: relative;
+  top: 100px;
+}
+
+
+#nextButton{
+  position: relative;
+  top: 100px;
+}
