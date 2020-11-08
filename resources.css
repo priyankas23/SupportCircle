@@ -1,0 +1,83 @@
+.rs-image1{
+  background: url("https://cdn.glitch.com/4bac5938-cc7e-4496-80bf-fd3c963874e9%2F1-3.png?v=1604817974586") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height:500px;
+  width:500px;
+}
+.rs-top{
+  
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align:center; 
+}
+.rs-top-text{
+  margin-bottom:1px;
+  margin-left:2em;
+  margin-right:1em;
+  margin-top:1em;
+  color: black; 
+  font-size: 20px; 
+  letter-spacing: 0px; 
+  line-height: 40px; 
+  text-align: center;
+  font-family: "Jaldi", sans-serif;
+  display: flex;
+  width:950px;
+}
+.rs-image2{
+  background: url("https://cdn.glitch.com/4bac5938-cc7e-4496-80bf-fd3c963874e9%2F2-1.png?v=1604823956974") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height:500px;
+  width:100%;
+ 
+}
+h5{
+  font-size:77px;
+  text-align:center;
+  line-height: 80px;
+  font-family: 'Dosis', sans-serif;
+  position: relative;
+
+}
+h6{
+  font-size:60px;
+  text-align:center;
+  line-height: 10px;
+  font-family: 'Dosis', sans-serif;
+  
+
+}
+.rs-image3{
+  background: url("https://cdn.glitch.com/4bac5938-cc7e-4496-80bf-fd3c963874e9%2FResources%20for%20Mental%20Health%20copy.png?v=1604826446518") no-repeat center;
+  background-size: cover;
+  text-align: right;
+  background-attachment: fixed;
+  height:500px;
+ 
+}
+.rs-call{
+  
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align:center; 
+}
+.rs-call-text{
+  margin-bottom:1px;
+  margin-left:2em;
+  margin-right:1em;
+  margin-top:1em;
+  color: black; 
+  font-size: 20px; 
+  letter-spacing: 0px; 
+  line-height: 40px; 
+  text-align: center;
+  font-family: "Jaldi", sans-serif;
+  display: flex;
+  width:950px;
+}
